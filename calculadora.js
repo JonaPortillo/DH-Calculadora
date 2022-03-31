@@ -1,0 +1,22 @@
+//Requerimos los cuatro archivos previamente creados.
+const sumar = require('./modulos/sumar')
+const restar = require('./modulos/restar')
+const dividir = require('./modulos/dividir')
+const multiplicar = require('./modulos/multiplicar')
+
+//Llamamos a cada una de las funciones, con sus posible casos.
+console.log("---------------------------------------")
+console.log("Sumar: 5 + 2 = " +sumar(5,2))
+console.log("---------------------------------------")
+console.log("Resta: 5 - 2 = " + restar(5,2))
+console.log("---------------------------------------")
+console.log("Multiplicar: 5 * 2 = " + multiplicar(5,2))
+console.log("---------------------------------------")
+console.log("Multiplicar: 5 * 0 = " + multiplicar(5,0))
+console.log("---------------------------------------")
+console.log("Dividir: 5 / 2 = " + dividir(5,2))
+console.log("---------------------------------------")
+console.log("Dividir: 5 / 0 = " + dividir(5,0))
+console.log("---------------------------------------")
+console.log("Dividir: 0 / 2 = " + dividir(0,2))
+console.log("---------------------------------------")
